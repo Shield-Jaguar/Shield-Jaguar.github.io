@@ -3,22 +3,132 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Mujahid's Website</title>
+  <title>SHield-Jaguar | Software Engineer</title>
   <style>
-    body {
-      font-family: sans-serif;
-      text-align: center;
-      background: #0d1117;
-      color: #c9d1d9;
-      padding: 50px;
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
     }
-    h1 {
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: #0d1117;
+      color: #c9d1d9;
+      line-height: 1.6;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-height: 100vh;
+      padding: 2rem;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+
+    header h1 {
+      font-size: 2.2rem;
       color: #58a6ff;
+    }
+
+    header p {
+      color: #8b949e;
+      font-size: 1.1rem;
+    }
+
+    section {
+      max-width: 800px;
+      width: 100%;
+      margin-bottom: 2rem;
+      background: #161b22;
+      border-radius: 12px;
+      padding: 1.5rem 2rem;
+      box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    }
+
+    h2 {
+      color: #58a6ff;
+      margin-bottom: 0.75rem;
+    }
+
+    ul {
+      list-style: none;
+      padding-left: 1rem;
+    }
+
+    ul li::before {
+      content: "▹";
+      color: #58a6ff;
+      margin-right: 0.5rem;
+    }
+
+    a {
+      color: #58a6ff;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      margin-top: auto;
+      text-align: center;
+      color: #8b949e;
+      font-size: 0.9rem;
+      padding-top: 1rem;
+      border-top: 1px solid #21262d;
     }
   </style>
 </head>
 <body>
-  <h1>👋 Hi, I'm Mujahid</h1>
-  <p>Welcome to my GitHub Pages site!</p>
+  <header>
+    <h1>👋 Hi, I'm SHield-Jaguar</h1>
+    <p>Software Engineer | Building developer tools at <a href="https://apimatic.io" target="_blank">APIMatic</a></p>
+  </header>
+
+  <section>
+    <h2>💼 About Me</h2>
+    <p>
+      I'm a product-focused software engineer who loves creating developer-centric tools and automation systems.
+      I work at <strong>APIMatic</strong>, helping global teams streamline their SDK generation and API documentation workflows.
+      I’m passionate about clean architecture, modern web tooling, and scalable cloud systems.
+    </p>
+  </section>
+
+  <section>
+    <h2>🛠️ Tech Stack</h2>
+    <ul>
+      <li>C#, .NET, ASP.NET Core</li>
+      <li>React, TypeScript</li>
+      <li>Node.js, REST & GraphQL APIs</li>
+      <li>Microsoft Azure (App Services, Entra ID, Functions, DevOps)</li>
+      <li>Clean Architecture & CI/CD Automation</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>🎯 Goals</h2>
+    <p>
+      My long-term vision is to build a software company focused on developer experience, productivity, and high-quality engineering tools.
+      I enjoy designing solutions that bridge product needs and technical excellence.
+    </p>
+  </section>
+
+  <section>
+    <h2>🌐 Connect</h2>
+    <p>
+      <a href="https://github.com/SHield-Jaguar" target="_blank">GitHub</a> ·
+      <a href="https://www.linkedin.com/in/mujahid-daud-khan" target="_blank">LinkedIn</a>
+    </p>
+  </section>
+
+  <footer>
+    © 2025 SHield-Jaguar · Built with ❤️ using GitHub Pages
+  </footer>
 </body>
 </html>
